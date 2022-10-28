@@ -1,0 +1,50 @@
+.card {
+  background-color: var(--background);
+  display: block;
+  width: 600px;
+  min-height: 100px;
+  cursor: pointer;
+  padding: 10px;
+  margin: calc(20vh - 20px) auto 0 auto;
+  border: 3px solid var(--primary);
+  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+    20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+    40px -40px 0 -3px var(--background), 40px -40px var(--red);
+}
+
+:root {
+  --primary: #22D2A0;
+  --secondary: #192824;
+  --background: #192824;
+  --green: #1FC11B;
+  --yellow: #FFD913;
+  --orange: #FF9C55;
+  --red: #FF5555;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(rgb(117, 0, 117),rgb(0, 0, 0));
+  background-size: 2px 3px;
+  font-family: "Archivo", sans-serif;
+  color: var(--primary);
+}
+
+.card p {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1px;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+}
